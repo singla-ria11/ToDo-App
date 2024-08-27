@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="./toDo.css" />
+    <script
+      src="https://kit.fontawesome.com/928b133a19.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="main_cont">
+      <div id="left_cont">
+        <div id="sticky">
+          <header><h1>ToDo App</h1></header>
+          <div id="category">
+            <p id="today"><span>Today</span></p>
+            <p id="week"><span>Week</span></p>
+            <p id="month"><span>Month</span></p>
+            <p id="important">
+              <i class="fa-regular fa-star starImp"></i><span>Important</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="right_cont"></div>
+    </div>
+
+    <script type="module" src="./toDo.js"></script>
+  </body>
+</html>
+
+<!-- <div id="top_cont">
+    <div id="heading">
+      <h2>Today</h2>
+      <p><small>Fri, 23 Aug 2024</small></p>
+    </div>
+    <div id="addItem">
+      <button id="addBtn">Add</button>
+      <input
+        type="text"
+        placeholder="Add new task"
+        id="addTask"
+        autofocus
+      />
+    </div>
+    <div id="taskCount">
+      <p>Total tasks : 7</p>
+    </div>
+  </div>
+
+  <div id="task_cont">
+    <div class="listItem">
+      <div class="nameSection">
+        <input type="checkbox" name="task" class="checkBox" />
+        <label class="taskName">abc</label>
+      </div>
+      <div class="iconsSection">
+        <i class="fa-regular fa-star star"></i>
+        <i class="fa-solid fa-circle-minus del"></i>
+      </div>
+    </div>
+  </div>
+
+  <h2 id="imp_h2">IMPORTANT TASKS</h2>
+  <div id="imp_tasks_cont">
+    <section id="imp_today_cont" class="imp_section">
+      <h3>Today</h3>
+      <ul class="imp_ul">
+        <li>
+          <span>Imp task 1</span>
+          <i class="fa-regular fa-star imp_star"></i>
+        </li>
+      </ul>
+    </section>
+    <section id="imp_week_cont" class="imp_section">
+      <h3>Week</h3>
+      <ul class="imp_ul">
+        <li>
+          <span>Imp task 1</span>
+          <i class="fa-regular fa-star imp_star"></i>
+        </li>
+      </ul>
+    </section>
+    <section id="imp_month_cont" class="imp_section">
+      <h3>Month</h3>
+      <ul class="imp_ul">
+        <li>
+          <span>Imp task 1</span>
+          <i class="fa-regular fa-star imp_star"></i>
+        </li>
+      </ul>
+    </section>
+  </div> -->
